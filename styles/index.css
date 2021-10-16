@@ -9,5 +9,5 @@ align-items: center;
 }
 img{
 height:600px;  
-
+max-width: 100%;
 }
