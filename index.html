@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Repuestos Oviedo</title>
+    <script src="https://kit.fontawesome.com/43e5401a3c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
@@ -33,5 +34,58 @@
   <!-- nav barr -->
   <!-- menu -->
 <!-- fin de menu de navegacion -->
+<!-- hacer el menu apuro codigo las barras -->
+<div class="wrapper">
+    <nav>
+      <input type="checkbox" id="show-search">
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+        <img src="/wpimages/logos/logorepuestosoviedo.jpg" alt=""  width="120px" >
+      <div class="logo"><a href="mantenimiento.html">Repuestos Oviedo </a>
+    </div>
+        <ul class="links">
+          <li><a href="mantenimiento.html">Nosotros</a></li>
+          <li><a href="mantenimiento.html">Servicios</a></li>
+         
+          <li>
+            <a href="mantenimiento.html" class="desktop-link">Accesorios</a>
+            <input type="checkbox" id="show-services">
+            <label for="show-services">Services</label>
+            <ul>
+              <li><a href="#">Drop Menu 1</a></li>
+              <li><a href="#">Drop Menu 2</a></li>
+              <li><a href="#">Drop Menu 3</a></li>
+              <li>
+                <a href="#" class="desktop-link">More Items</a>
+                <input type="checkbox" id="show-items">
+                <label for="show-items">More Items</label>
+                <ul>
+                  <li><a href="#">Sub Menu 1</a></li>
+                  <li><a href="#">Sub Menu 2</a></li>
+                  <li><a href="#">Sub Menu 3</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="mantenimiento.html">Feedback</a></li>
+        </ul>
+      </div>
+      <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+      <form action="#" class="search-box">
+        <input type="text" placeholder="Type Something to Search..." required>
+        <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+      </form>
+    </nav>
+  </div>
+  <div class="dummy-text">
+    <!-- <h2>Responsive Dropdown Menu Bar with Searchbox</h2>
+    <h2>using only HTML & CSS - Flexbox</h2> -->
+  </div>
+
+
+
+
+</nav>
 </body>
 </html>
